@@ -1,0 +1,305 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+  --main-font-color: #212121;
+  --secondary-font: "Raleway", sans-serif;
+  --focus-color: #2196f3;
+  --background-color: #2f303a;
+  --background-color2: #ffffff;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style-type: none;
+}
+
+body {
+  font-family: var(--main-font);
+  color: var(--main-font-color);
+}
+
+/* ====================== BEGIN HEADER ================== */
+.header {
+  background-color: var(--background-color2);
+}
+
+.logo {
+  font-family: "Oleo Script", cursive;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--focus-color);
+}
+
+.logo.web {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.nav-links:hover {
+  color: var(--focus-color);
+}
+.nav-links:focus {
+  color: var(--focus-color);
+}
+
+.contacts:hover {
+  color: var(--focus-color);
+}
+
+.contacts:focus {
+  color: var(--focus-color);
+}
+
+.nav-links {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-font-color);
+}
+
+.contacts {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+/* ====================== END HEADER ================== */
+
+/* ====================== BEGIN HERO ================== */
+
+.hero {
+  background-color: var(--background-color);
+}
+
+.main-title {
+  font-family: var(--main-font);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.button {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-style: none;
+  letter-spacing: 0.06em;
+
+  color: #ffffff;
+
+  background: var(--focus-color);
+  border-radius: 4px;
+}
+
+/* ====================== END HERO ================== */
+
+/* ====================== BEGIN ADVANTAGES ================== */
+
+.advantages {
+  background-color: var(--background-color2);
+}
+
+.advantages-title {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+
+.third-title {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.adv-desc {
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* ====================== END ADVANTAGES ================== */
+
+/* ====================== BEGIN OUR WORK ================== */
+
+.our-work {
+  background-color: var(--background-color2);
+}
+
+/* ====================== END OUR WORK ================== */
+
+.our-work-title {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+
+/* ====================== BEGIN OUR TEAM ================== */
+
+.our-team {
+  background-color: var(--background-color2);
+}
+
+.our-team-title {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+}
+
+.teammate {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+.profession {
+  font-family: var(--main-font);
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* ====================== END OUR TEAM ================== */
+
+/* ====================== BEGIN FOOTER ================== */
+
+.footer {
+  background-color: var(--background-color);
+}
+
+.street {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.mail {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.phone {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.mail:hover {
+  color: var(--focus-color);
+}
+
+.mail:focus {
+  color: var(--focus-color);
+}
+.phone:focus {
+  color: var(--focus-color);
+}
+
+.phone:hover {
+  color: var(--focus-color);
+}
+
+.street:focus {
+  color: var(--focus-color);
+}
+
+.street:hover {
+  color: var(--focus-color);
+}
+/* ====================== END FOOTER ================== */
+
+/* ===   ===   ===   ===   BEGIN PORTFOLIO FILTER   ===   ===   === */
+
+.portfolio {
+  background-color: var(--background-color2);
+}
+
+.filters {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  border-style: none;
+  background-color: #fff;
+}
+
+.filters:focus {
+  background: var(--focus-color);
+  color: #ffffff;
+  border-radius: 4px;
+  border-style: none;
+  cursor: pointer;
+}
+
+.filters:hover {
+  background: var(--focus-color);
+  color: #ffffff;
+  border-radius: 4px;
+  border-style: none;
+  cursor: pointer;
+}
+
+/* ===   ===   ===   ===   END PORTFOLIO FILTER   ===   ===   === */
+
+/* ===   ===   ===   ===   BEGIN PORTFOLIO  ===   ===   === */
+
+.work-name {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.work-type {
+  font-family: var(--main-font);
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* ===   ===   ===   ===   END PORTFOLIO  ===   ===   === */
