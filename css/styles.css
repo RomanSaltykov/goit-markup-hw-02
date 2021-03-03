@@ -1,10 +1,12 @@
 :root {
-  --main-font: "Roboto", sans-serif;
+  --main-font: 'Roboto', sans-serif;
   --main-font-color: #212121;
-  --secondary-font: "Raleway", sans-serif;
+  --secondary-font-color: #757575;
+  --secondary-font: 'Raleway', sans-serif;
   --focus-color: #2196f3;
   --background-color: #2f303a;
   --background-color2: #ffffff;
+  --background-color3: #f5f4fa;
 }
 
 .link {
@@ -26,11 +28,11 @@ body {
 }
 
 .logo {
-  font-family: "Oleo Script", cursive;
+  font-family: 'Oleo Script', cursive;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--focus-color);
+  color: var(--main-font-color);
 }
 
 .logo.web {
@@ -39,7 +41,15 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #000000;
+  color: var(--focus-color);
+}
+
+.logo-footer {
+  font-family: 'Oleo Script', cursive;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--background-color2);
 }
 
 .nav-links:hover {
@@ -58,7 +68,6 @@ body {
 }
 
 .nav-links {
-  font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -74,6 +83,10 @@ body {
   letter-spacing: 0.02em;
 }
 
+.current {
+  color: var(--focus-color);
+}
+
 /* ====================== END HEADER ================== */
 
 /* ====================== BEGIN HERO ================== */
@@ -83,14 +96,13 @@ body {
 }
 
 .main-title {
-  font-family: var(--main-font);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--background-color2);
 }
 
 .button {
@@ -104,7 +116,7 @@ body {
   border-style: none;
   letter-spacing: 0.06em;
 
-  color: #ffffff;
+  color: var(--background-color2);
 
   background: var(--focus-color);
   border-radius: 4px;
@@ -119,28 +131,17 @@ body {
 }
 
 .advantages-title {
-  font-family: var(--main-font);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   letter-spacing: 0.03em;
 }
 
-.third-title {
-  font-family: var(--main-font);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-
 .adv-desc {
-  font-family: var(--main-font);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--secondary-font-color);
 }
 
 /* ====================== END ADVANTAGES ================== */
@@ -154,7 +155,6 @@ body {
 /* ====================== END OUR WORK ================== */
 
 .our-work-title {
-  font-family: var(--main-font);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -164,11 +164,10 @@ body {
 /* ====================== BEGIN OUR TEAM ================== */
 
 .our-team {
-  background-color: var(--background-color2);
+  background-color: var(--background-color3);
 }
 
 .our-team-title {
-  font-family: var(--main-font);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -176,7 +175,6 @@ body {
 }
 
 .teammate {
-  font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -184,11 +182,10 @@ body {
 }
 
 .profession {
-  font-family: var(--main-font);
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--secondary-font-color);
 }
 
 /* ====================== END OUR TEAM ================== */
@@ -214,7 +211,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--secondary-font-color);
 }
 
 .phone {
@@ -223,7 +220,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--secondary-font-color);
 }
 
 .mail:hover {
@@ -286,20 +283,19 @@ body {
 /* ===   ===   ===   ===   BEGIN PORTFOLIO  ===   ===   === */
 
 .work-name {
-  font-family: var(--main-font);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  color: var(--main-font-color);
 }
 
 .work-type {
-  font-family: var(--main-font);
   font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--secondary-font-color);
 }
 
 /* ===   ===   ===   ===   END PORTFOLIO  ===   ===   === */
