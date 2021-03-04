@@ -28,7 +28,7 @@ body {
 }
 
 .logo {
-  font-family: 'Oleo Script', cursive;
+  font-family: var(--secondary-font);
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -45,7 +45,7 @@ body {
 }
 
 .logo-footer {
-  font-family: 'Oleo Script', cursive;
+  font-family: var(--secondary-font);
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -132,9 +132,10 @@ body {
 
 .advantages-title {
   font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
+  font-size: 14px;
+  line-height: 16px;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .adv-desc {
@@ -197,7 +198,6 @@ body {
 }
 
 .street {
-  font-family: var(--main-font);
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -205,36 +205,29 @@ body {
   color: #ffffff;
 }
 
-.mail {
-  font-family: var(--main-font);
+.f-cont {
   font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.h-cont {
+  font-style: normal;
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--secondary-font-color);
 }
 
-.phone {
-  font-family: var(--main-font);
-  font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: var(--secondary-font-color);
-}
-
-.mail:hover {
+.f-cont:focus {
   color: var(--focus-color);
 }
 
-.mail:focus {
-  color: var(--focus-color);
-}
-.phone:focus {
-  color: var(--focus-color);
-}
-
-.phone:hover {
+.f-cont:hover {
   color: var(--focus-color);
 }
 
@@ -259,7 +252,8 @@ body {
   font-size: 16px;
   line-height: 1.6;
   border-style: none;
-  background-color: #fff;
+  background: #f5f4fa;
+  border-radius: 4px;
 }
 
 .filters:focus {
@@ -291,7 +285,7 @@ body {
 }
 
 .work-type {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
